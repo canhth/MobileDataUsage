@@ -27,8 +27,6 @@
 		A6936811244DEA3E00B51A03 /* NameDescribable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69367EE244DEA3E00B51A03 /* NameDescribable.swift */; };
 		A6936813244DEA3E00B51A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69367F1244DEA3E00B51A03 /* Assets.xcassets */; };
 		A6936814244DEA3E00B51A03 /* APIConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = A69367F2244DEA3E00B51A03 /* APIConfiguration.plist */; };
-		A693681C244DEA3E00B51A03 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69367FE244DEA3E00B51A03 /* Comment.swift */; };
-		A693681D244DEA3E00B51A03 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69367FF244DEA3E00B51A03 /* User.swift */; };
 		A6936821244DEBF200B51A03 /* Reachablility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936820244DEBF200B51A03 /* Reachablility.swift */; };
 		A6936823244DEC2100B51A03 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936822244DEC2100B51A03 /* UITableView+Ext.swift */; };
 		A6936825244DEC3000B51A03 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936824244DEC3000B51A03 /* UIView+Ext.swift */; };
@@ -37,6 +35,8 @@
 		A693682B244DEC5F00B51A03 /* Dispatch+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693682A244DEC5E00B51A03 /* Dispatch+Ext.swift */; };
 		A693682D244DEC6700B51A03 /* Collection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693682C244DEC6700B51A03 /* Collection+Ext.swift */; };
 		A693682F244DEC7B00B51A03 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693682E244DEC7B00B51A03 /* Constraints.swift */; };
+		A6936831244DF01600B51A03 /* QuarterRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936830244DF01600B51A03 /* QuarterRecord.swift */; };
+		A6936833244DF02500B51A03 /* YearRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936832244DF02500B51A03 /* YearRecord.swift */; };
 		D6FAC7E3383F0C7E57B14DB9 /* Pods_SPHTech_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF00E871DC54D2633CD2D4E /* Pods_SPHTech_AssignmentTests.framework */; };
 		D98CCC8574D4381A2D0890EB /* Pods_SPHTech_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382C0E6BBF97097E8D4BF3FE /* Pods_SPHTech_Assignment.framework */; };
 		DA9DC2AA971088262012E6E4 /* Pods_SPHTech_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8DD8B8FA6CDE1B94C27E68 /* Pods_SPHTech_AssignmentUITests.framework */; };
@@ -90,8 +90,6 @@
 		A69367EE244DEA3E00B51A03 /* NameDescribable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameDescribable.swift; sourceTree = "<group>"; };
 		A69367F1244DEA3E00B51A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A69367F2244DEA3E00B51A03 /* APIConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIConfiguration.plist; sourceTree = "<group>"; };
-		A69367FE244DEA3E00B51A03 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
-		A69367FF244DEA3E00B51A03 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A6936820244DEBF200B51A03 /* Reachablility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachablility.swift; sourceTree = "<group>"; };
 		A6936822244DEC2100B51A03 /* UITableView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 		A6936824244DEC3000B51A03 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
@@ -100,6 +98,8 @@
 		A693682A244DEC5E00B51A03 /* Dispatch+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dispatch+Ext.swift"; sourceTree = "<group>"; };
 		A693682C244DEC6700B51A03 /* Collection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Ext.swift"; sourceTree = "<group>"; };
 		A693682E244DEC7B00B51A03 /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		A6936830244DF01600B51A03 /* QuarterRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterRecord.swift; sourceTree = "<group>"; };
+		A6936832244DF02500B51A03 /* YearRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearRecord.swift; sourceTree = "<group>"; };
 		BD485FA05875A965C5834399 /* Pods-SPHTech-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHTech-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-SPHTech-AssignmentUITests/Pods-SPHTech-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D236E0910C3BB8DC62B4E10A /* Pods-SPHTech-AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHTech-AssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-SPHTech-AssignmentUITests/Pods-SPHTech-AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DDF00E871DC54D2633CD2D4E /* Pods_SPHTech_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPHTech_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -309,8 +309,8 @@
 		A69367FD244DEA3E00B51A03 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A69367FE244DEA3E00B51A03 /* Comment.swift */,
-				A69367FF244DEA3E00B51A03 /* User.swift */,
+				A6936830244DF01600B51A03 /* QuarterRecord.swift */,
+				A6936832244DF02500B51A03 /* YearRecord.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -560,19 +560,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6936810244DEA3E00B51A03 /* Logger.swift in Sources */,
+				A6936831244DF01600B51A03 /* QuarterRecord.swift in Sources */,
 				A6936828244DEC4E00B51A03 /* UIFont+Ext.swift in Sources */,
 				A693682B244DEC5F00B51A03 /* Dispatch+Ext.swift in Sources */,
 				A693682F244DEC7B00B51A03 /* Constraints.swift in Sources */,
+				A6936833244DF02500B51A03 /* YearRecord.swift in Sources */,
 				A693680A244DEA3E00B51A03 /* BaseViewController.swift in Sources */,
 				A6936823244DEC2100B51A03 /* UITableView+Ext.swift in Sources */,
 				A6936825244DEC3000B51A03 /* UIView+Ext.swift in Sources */,
 				A693680D244DEA3E00B51A03 /* NavigationRouter.swift in Sources */,
 				A693680E244DEA3E00B51A03 /* RouterInterfaces.swift in Sources */,
-				A693681D244DEA3E00B51A03 /* User.swift in Sources */,
 				A6936821244DEBF200B51A03 /* Reachablility.swift in Sources */,
 				A693680B244DEA3E00B51A03 /* ViewInterface.swift in Sources */,
 				A606D39E244DE4E00043B5B3 /* AppDelegate.swift in Sources */,
-				A693681C244DEA3E00B51A03 /* Comment.swift in Sources */,
 				A693680F244DEA3E00B51A03 /* ViewRouter.swift in Sources */,
 				A693680C244DEA3E00B51A03 /* NavigationController.swift in Sources */,
 				A6936803244DEA3E00B51A03 /* NetworkError.swift in Sources */,
