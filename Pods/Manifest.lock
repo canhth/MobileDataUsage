@@ -1,0 +1,22 @@
+PODS:
+  - HanekeSwift (1.2)
+
+DEPENDENCIES:
+  - HanekeSwift (from `https://github.com/Haneke/HanekeSwift.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :branch: master
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: 41c1efc82a9b7cefa4381f79669ab1e32b867b16
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+SPEC CHECKSUMS:
+  HanekeSwift: 0ee43c4cfe871ef8cc7382bda8729b6374c41748
+
+PODFILE CHECKSUM: 3d2b17c8cfa17625ac8f77be3857e724004d27e6
+
+COCOAPODS: 1.7.5

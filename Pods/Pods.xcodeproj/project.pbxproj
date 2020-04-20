@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01356113A7D19762FB9B67A947A73C88 /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41AA1068C9962625A9256B6EA31C80B /* NSHTTPURLResponse+Haneke.swift */; };
+		123E2226CF10DF6ED327654BA10E0789 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AB9C12A5A23A4F53BC87537A9B85F1 /* Data.swift */; };
+		19292643B7B23A72EC2BD2F0FD98541D /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522673DF55EA7CE30CCACEF19EF5D126 /* Haneke.swift */; };
+		1C55FC70B34D87082A63297F7DBC4333 /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C20B857D26CB27DE151B4272E29BC2E /* UIView+Haneke.swift */; };
+		1E839B4BE4E77B365DEA9C0F2F735ADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2065AB574009FFA99EEA5B161412DAD0 /* HanekeSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC876F1F67716D8646D62F31D6D05A17 /* HanekeSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366D1BC88313831616BBF5F9D048451C /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D852B0A29C795EB597CC68D3BAA69F /* Log.swift */; };
+		370A0D72EE8E9832CC613A126452F925 /* Pods-SPHTech-AssignmentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD31AB414CDB9594421CAE14E440A56C /* Pods-SPHTech-AssignmentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4510928CDF72F92777152DF798EDEC0F /* NSURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100E50A55845FA266D01BF238AF1A8D6 /* NSURLResponse+Haneke.swift */; };
+		46A176C5024A8A783EB2D0201791E2C4 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B0CAD594B2CDA9E96786307BE6FD0 /* NetworkFetcher.swift */; };
+		561C66CE1B9E6921C4AACD6EAE8FAC26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		571ED741FC8624B5C0ADE35355B7EFDA /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210FDEC0E2BB4C9CCB0310613B70D682 /* UIImage+Haneke.swift */; };
+		5B6159A9996932416367D2D497B6A2C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5DAD504DB2191D47FA1C8F908BB4185C /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4568D8919C0064609CF35D7176C2F3C9 /* DiskFetcher.swift */; };
+		5F8D6B619F496DFD4D4A68ADCD86CB46 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64086EEFC2E9EE8C1F7B6B7D5CF1503C /* Fetcher.swift */; };
+		613C4B99149B97882D2435C3800868F6 /* HanekeSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616024A4EA2DA2149A7C203A762F1D8D /* HanekeSwift-dummy.m */; };
+		62DF601AE081CBABAC3B1A8229AE54D9 /* Pods-SPHTech-AssignmentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33080342694F5D0E423E5BD78671369B /* Pods-SPHTech-AssignmentTests-dummy.m */; };
+		6340F6185517167158EC06F751614256 /* Pods-SPHTech-AssignmentUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD3E650AC055B432E454943EFEB2B0E /* Pods-SPHTech-AssignmentUITests-dummy.m */; };
+		69140C09015004B047868E2B190EFD8F /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6372F0274381F6629C19972B0B806A /* UIButton+Haneke.swift */; };
+		70972E1E425DDD91BF58ABDB75909886 /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92946B2C6921D549CBF5F3FE66A0F9A /* String+Haneke.swift */; };
+		8FEC4BEF1D732E0018154FC06337E85E /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E06D962166630E6C939C7D5BCEAC9 /* CryptoSwiftMD5.swift */; };
+		98B1B1640040CF1FD87912AFD0FB5D38 /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B333CCC98EC6641C496BB89519C01FF /* Fetch.swift */; };
+		AD61226F00F10E94D9C113520F8A11D5 /* Pods-SPHTech-Assignment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66BDE1FA66C6B9C66595CD19D2207AF8 /* Pods-SPHTech-Assignment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBE922051752A7A8AEE32DDF4CA5F963 /* Pods-SPHTech-AssignmentUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC494EA1611AE6FE83FABA726401F1B2 /* Pods-SPHTech-AssignmentUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06B5848B1243B9357D532DCFECBC19D /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E31906EA766AA110B21A9116DC1D3 /* DiskCache.swift */; };
+		CD5688DE817314565182BCDEACD42B21 /* Pods-SPHTech-Assignment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 703B790C002C6222A2C9AC4330F42D7F /* Pods-SPHTech-Assignment-dummy.m */; };
+		D2B7F41AE521A3EB7BE9782F91F5BFB4 /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF415593D0BC6CD4A5ECACE6AAF8C12 /* NSFileManager+Haneke.swift */; };
+		D33BAC510068EA503115F80D93164E31 /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81AA3AE52D1ACDA8059E4748802570 /* UIImageView+Haneke.swift */; };
+		E0A48AE0F00C0B584BC61F9FB4983B96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E75466D2E2BF3926F459A2DF0C69EBBB /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BB78B30DE749A4F6F620EBC141C00 /* Format.swift */; };
+		EBC2C5D7EC058A4E4AE20599F11401D6 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450412906F6D8207A1B5CC276545B8C /* Cache.swift */; };
+		F281D63D8CEE5408F77D9BEF6F91A69A /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24B1F982887F74F85A9D679D1A39CA0 /* CGSize+Swift.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		138B1BE343FA92BEB431664AE8DC8FF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE86A43E7949D27AE8D9E2AE1FDD528;
+			remoteInfo = "Pods-SPHTech-Assignment";
+		};
+		E4B6B049A0E0E99774BCB84BBD27C3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37F4764FFDA82FE00F39EF7B12A4D1AE;
+			remoteInfo = HanekeSwift;
+		};
+		F9ED86BCD4A7015883E30997AE750C62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE86A43E7949D27AE8D9E2AE1FDD528;
+			remoteInfo = "Pods-SPHTech-Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AA56EDBBB6723AFEBDB404EB9D1FF98 /* Pods-SPHTech-AssignmentTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPHTech-AssignmentTests.modulemap"; sourceTree = "<group>"; };
+		0C2E06D962166630E6C939C7D5BCEAC9 /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMD5.swift; path = Haneke/CryptoSwiftMD5.swift; sourceTree = "<group>"; };
+		100E50A55845FA266D01BF238AF1A8D6 /* NSURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLResponse+Haneke.swift"; path = "Haneke/NSURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		210FDEC0E2BB4C9CCB0310613B70D682 /* UIImage+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Haneke.swift"; path = "Haneke/UIImage+Haneke.swift"; sourceTree = "<group>"; };
+		2450412906F6D8207A1B5CC276545B8C /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = Haneke/Cache.swift; sourceTree = "<group>"; };
+		269F8B206F24A195048C10E6EA98816F /* Pods-SPHTech-AssignmentTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPHTech-AssignmentTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		285E31906EA766AA110B21A9116DC1D3 /* DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = Haneke/DiskCache.swift; sourceTree = "<group>"; };
+		295D7823849907E9F5299FAE1800C6B8 /* Pods-SPHTech-AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHTech-AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33080342694F5D0E423E5BD78671369B /* Pods-SPHTech-AssignmentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPHTech-AssignmentTests-dummy.m"; sourceTree = "<group>"; };
+		3B333CCC98EC6641C496BB89519C01FF /* Fetch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = Haneke/Fetch.swift; sourceTree = "<group>"; };
+		3BBF8DAE6BFCFC01BD8EA2572C6F837E /* Pods_SPHTech_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPHTech_AssignmentTests.framework; path = "Pods-SPHTech-AssignmentTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43025896B1D5C7AB36B1FD5A4EBB6083 /* Pods-SPHTech-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHTech-Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		4568D8919C0064609CF35D7176C2F3C9 /* DiskFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskFetcher.swift; path = Haneke/DiskFetcher.swift; sourceTree = "<group>"; };
+		4A4E138C7F676A86BB86FD3E6FDB0DE0 /* Pods-SPHTech-AssignmentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPHTech-AssignmentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4ABBF918A51E6D321B77D2A8FC4617FC /* Pods-SPHTech-AssignmentUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPHTech-AssignmentUITests-Info.plist"; sourceTree = "<group>"; };
+		4CF415593D0BC6CD4A5ECACE6AAF8C12 /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Haneke.swift"; path = "Haneke/NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
+		522673DF55EA7CE30CCACEF19EF5D126 /* Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haneke.swift; path = Haneke/Haneke.swift; sourceTree = "<group>"; };
+		53DD29E23231722BDAE0AFF9A8C1B1FB /* Pods-SPHTech-Assignment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPHTech-Assignment-Info.plist"; sourceTree = "<group>"; };
+		5B3BB78B30DE749A4F6F620EBC141C00 /* Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Format.swift; path = Haneke/Format.swift; sourceTree = "<group>"; };
+		5CCC841D7108D91EC002668C65E0F7A0 /* Pods_SPHTech_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPHTech_Assignment.framework; path = "Pods-SPHTech-Assignment.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616024A4EA2DA2149A7C203A762F1D8D /* HanekeSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HanekeSwift-dummy.m"; sourceTree = "<group>"; };
+		64086EEFC2E9EE8C1F7B6B7D5CF1503C /* Fetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = Haneke/Fetcher.swift; sourceTree = "<group>"; };
+		66BDE1FA66C6B9C66595CD19D2207AF8 /* Pods-SPHTech-Assignment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPHTech-Assignment-umbrella.h"; sourceTree = "<group>"; };
+		6D3C23BF98C8E9C97B1420A711A5D32F /* Pods-SPHTech-Assignment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPHTech-Assignment-acknowledgements.markdown"; sourceTree = "<group>"; };
+		703B790C002C6222A2C9AC4330F42D7F /* Pods-SPHTech-Assignment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPHTech-Assignment-dummy.m"; sourceTree = "<group>"; };
+		754B0CAD594B2CDA9E96786307BE6FD0 /* NetworkFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkFetcher.swift; path = Haneke/NetworkFetcher.swift; sourceTree = "<group>"; };
+		7766E3D78C6C24D1DC439DC826617AC6 /* Pods_SPHTech_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPHTech_AssignmentUITests.framework; path = "Pods-SPHTech-AssignmentUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		827302F215159B1A71E74AB14EBE8589 /* Pods-SPHTech-Assignment-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPHTech-Assignment-frameworks.sh"; sourceTree = "<group>"; };
+		82AB9C12A5A23A4F53BC87537A9B85F1 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Haneke/Data.swift; sourceTree = "<group>"; };
+		84798B515640FA79E6C893310AC0DC2D /* Pods-SPHTech-AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHTech-AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85D0C2B72A0678ED1660AB982674EAFC /* HanekeSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-prefix.pch"; sourceTree = "<group>"; };
+		9B9369D059BE317AE8B96A55B3AA2AD4 /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Haneke.framework; path = HanekeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C20B857D26CB27DE151B4272E29BC2E /* UIView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Haneke.swift"; path = "Haneke/UIView+Haneke.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A300607E2C8E65A7F531E1222EB725A3 /* Pods-SPHTech-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHTech-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		A41AA1068C9962625A9256B6EA31C80B /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSHTTPURLResponse+Haneke.swift"; path = "Haneke/NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		A54008079FB8EFFD086E3DF2E7369915 /* Pods-SPHTech-AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHTech-AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC6372F0274381F6629C19972B0B806A /* UIButton+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Haneke.swift"; path = "Haneke/UIButton+Haneke.swift"; sourceTree = "<group>"; };
+		B6D852B0A29C795EB597CC68D3BAA69F /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Haneke/Log.swift; sourceTree = "<group>"; };
+		BA81AA3AE52D1ACDA8059E4748802570 /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Haneke.swift"; path = "Haneke/UIImageView+Haneke.swift"; sourceTree = "<group>"; };
+		BAD3E650AC055B432E454943EFEB2B0E /* Pods-SPHTech-AssignmentUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPHTech-AssignmentUITests-dummy.m"; sourceTree = "<group>"; };
+		BF0A34DAFC0579508C8A12481E1138F2 /* Pods-SPHTech-Assignment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPHTech-Assignment-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFF5FF740ADDF787206DEE0C974D3C84 /* Pods-SPHTech-AssignmentUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPHTech-AssignmentUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C72B1C7021236A0F63D1EFE6D3C0C3F5 /* HanekeSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HanekeSwift.modulemap; sourceTree = "<group>"; };
+		C92946B2C6921D549CBF5F3FE66A0F9A /* String+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Haneke.swift"; path = "Haneke/String+Haneke.swift"; sourceTree = "<group>"; };
+		D1902639CACAFEE4DB4F653AA8C732B8 /* Pods-SPHTech-AssignmentUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPHTech-AssignmentUITests.modulemap"; sourceTree = "<group>"; };
+		D2984C36D1D25B8B7558A8B054A2BC88 /* HanekeSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HanekeSwift.xcconfig; sourceTree = "<group>"; };
+		D67CA9F25B46FA01327E6528ED594EFA /* Pods-SPHTech-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHTech-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D744079F619E0612658D990BFC31938B /* Pods-SPHTech-AssignmentTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPHTech-AssignmentTests-Info.plist"; sourceTree = "<group>"; };
+		D87E450DF5190A0B545FB4C0478B22B1 /* Pods-SPHTech-AssignmentUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPHTech-AssignmentUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E24B1F982887F74F85A9D679D1A39CA0 /* CGSize+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+Swift.swift"; path = "Haneke/CGSize+Swift.swift"; sourceTree = "<group>"; };
+		EC876F1F67716D8646D62F31D6D05A17 /* HanekeSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-umbrella.h"; sourceTree = "<group>"; };
+		F128A1EFC8263A3EEF82FBBC5ED7334F /* Pods-SPHTech-Assignment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPHTech-Assignment.modulemap"; sourceTree = "<group>"; };
+		FC494EA1611AE6FE83FABA726401F1B2 /* Pods-SPHTech-AssignmentUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPHTech-AssignmentUITests-umbrella.h"; sourceTree = "<group>"; };
+		FC56E45E774EBA3135307F560CF1063B /* HanekeSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HanekeSwift-Info.plist"; sourceTree = "<group>"; };
+		FD31AB414CDB9594421CAE14E440A56C /* Pods-SPHTech-AssignmentTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPHTech-AssignmentTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0000664F88506BC31F31A2CE76D17404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A48AE0F00C0B584BC61F9FB4983B96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8A51E34BB1AC6B76F5536EBA821956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6159A9996932416367D2D497B6A2C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D02BEC83ABD4FC1043635C28A75ACB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561C66CE1B9E6921C4AACD6EAE8FAC26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6542E928BEC08CFCF56B0ECE7ABFD750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E839B4BE4E77B365DEA9C0F2F735ADA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E2B3CF45ED4C8E486744908984842C8 /* Pods-SPHTech-AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AA56EDBBB6723AFEBDB404EB9D1FF98 /* Pods-SPHTech-AssignmentTests.modulemap */,
+				4A4E138C7F676A86BB86FD3E6FDB0DE0 /* Pods-SPHTech-AssignmentTests-acknowledgements.markdown */,
+				269F8B206F24A195048C10E6EA98816F /* Pods-SPHTech-AssignmentTests-acknowledgements.plist */,
+				33080342694F5D0E423E5BD78671369B /* Pods-SPHTech-AssignmentTests-dummy.m */,
+				D744079F619E0612658D990BFC31938B /* Pods-SPHTech-AssignmentTests-Info.plist */,
+				FD31AB414CDB9594421CAE14E440A56C /* Pods-SPHTech-AssignmentTests-umbrella.h */,
+				84798B515640FA79E6C893310AC0DC2D /* Pods-SPHTech-AssignmentTests.debug.xcconfig */,
+				A54008079FB8EFFD086E3DF2E7369915 /* Pods-SPHTech-AssignmentTests.release.xcconfig */,
+			);
+			name = "Pods-SPHTech-AssignmentTests";
+			path = "Target Support Files/Pods-SPHTech-AssignmentTests";
+			sourceTree = "<group>";
+		};
+		3737CB0619DC4A1C8905D668BA6DEC21 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0EF08C75ED985C583D8AE240BCF8973 /* Pods-SPHTech-Assignment */,
+				0E2B3CF45ED4C8E486744908984842C8 /* Pods-SPHTech-AssignmentTests */,
+				77F371C0EB9D4DF944AFE909F77B0128 /* Pods-SPHTech-AssignmentUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7500E542F804E361A4EA885B997FF031 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C72B1C7021236A0F63D1EFE6D3C0C3F5 /* HanekeSwift.modulemap */,
+				D2984C36D1D25B8B7558A8B054A2BC88 /* HanekeSwift.xcconfig */,
+				616024A4EA2DA2149A7C203A762F1D8D /* HanekeSwift-dummy.m */,
+				FC56E45E774EBA3135307F560CF1063B /* HanekeSwift-Info.plist */,
+				85D0C2B72A0678ED1660AB982674EAFC /* HanekeSwift-prefix.pch */,
+				EC876F1F67716D8646D62F31D6D05A17 /* HanekeSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HanekeSwift";
+			sourceTree = "<group>";
+		};
+		77F371C0EB9D4DF944AFE909F77B0128 /* Pods-SPHTech-AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1902639CACAFEE4DB4F653AA8C732B8 /* Pods-SPHTech-AssignmentUITests.modulemap */,
+				D87E450DF5190A0B545FB4C0478B22B1 /* Pods-SPHTech-AssignmentUITests-acknowledgements.markdown */,
+				BFF5FF740ADDF787206DEE0C974D3C84 /* Pods-SPHTech-AssignmentUITests-acknowledgements.plist */,
+				BAD3E650AC055B432E454943EFEB2B0E /* Pods-SPHTech-AssignmentUITests-dummy.m */,
+				4ABBF918A51E6D321B77D2A8FC4617FC /* Pods-SPHTech-AssignmentUITests-Info.plist */,
+				FC494EA1611AE6FE83FABA726401F1B2 /* Pods-SPHTech-AssignmentUITests-umbrella.h */,
+				295D7823849907E9F5299FAE1800C6B8 /* Pods-SPHTech-AssignmentUITests.debug.xcconfig */,
+				D67CA9F25B46FA01327E6528ED594EFA /* Pods-SPHTech-AssignmentUITests.release.xcconfig */,
+			);
+			name = "Pods-SPHTech-AssignmentUITests";
+			path = "Target Support Files/Pods-SPHTech-AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		96D18E3623EB077A8403B9881142E750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B9369D059BE317AE8B96A55B3AA2AD4 /* Haneke.framework */,
+				5CCC841D7108D91EC002668C65E0F7A0 /* Pods_SPHTech_Assignment.framework */,
+				3BBF8DAE6BFCFC01BD8EA2572C6F837E /* Pods_SPHTech_AssignmentTests.framework */,
+				7766E3D78C6C24D1DC439DC826617AC6 /* Pods_SPHTech_AssignmentUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D124FF30B1AD382535CD680C39C7B06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7BB6BCB5EDB09BE6C353212466C196F /* HanekeSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7BB6BCB5EDB09BE6C353212466C196F /* HanekeSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2450412906F6D8207A1B5CC276545B8C /* Cache.swift */,
+				E24B1F982887F74F85A9D679D1A39CA0 /* CGSize+Swift.swift */,
+				0C2E06D962166630E6C939C7D5BCEAC9 /* CryptoSwiftMD5.swift */,
+				82AB9C12A5A23A4F53BC87537A9B85F1 /* Data.swift */,
+				285E31906EA766AA110B21A9116DC1D3 /* DiskCache.swift */,
+				4568D8919C0064609CF35D7176C2F3C9 /* DiskFetcher.swift */,
+				3B333CCC98EC6641C496BB89519C01FF /* Fetch.swift */,
+				64086EEFC2E9EE8C1F7B6B7D5CF1503C /* Fetcher.swift */,
+				5B3BB78B30DE749A4F6F620EBC141C00 /* Format.swift */,
+				522673DF55EA7CE30CCACEF19EF5D126 /* Haneke.swift */,
+				B6D852B0A29C795EB597CC68D3BAA69F /* Log.swift */,
+				754B0CAD594B2CDA9E96786307BE6FD0 /* NetworkFetcher.swift */,
+				4CF415593D0BC6CD4A5ECACE6AAF8C12 /* NSFileManager+Haneke.swift */,
+				A41AA1068C9962625A9256B6EA31C80B /* NSHTTPURLResponse+Haneke.swift */,
+				100E50A55845FA266D01BF238AF1A8D6 /* NSURLResponse+Haneke.swift */,
+				C92946B2C6921D549CBF5F3FE66A0F9A /* String+Haneke.swift */,
+				AC6372F0274381F6629C19972B0B806A /* UIButton+Haneke.swift */,
+				210FDEC0E2BB4C9CCB0310613B70D682 /* UIImage+Haneke.swift */,
+				BA81AA3AE52D1ACDA8059E4748802570 /* UIImageView+Haneke.swift */,
+				9C20B857D26CB27DE151B4272E29BC2E /* UIView+Haneke.swift */,
+				7500E542F804E361A4EA885B997FF031 /* Support Files */,
+			);
+			name = HanekeSwift;
+			path = HanekeSwift;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9D124FF30B1AD382535CD680C39C7B06 /* Pods */,
+				96D18E3623EB077A8403B9881142E750 /* Products */,
+				3737CB0619DC4A1C8905D668BA6DEC21 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0EF08C75ED985C583D8AE240BCF8973 /* Pods-SPHTech-Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				F128A1EFC8263A3EEF82FBBC5ED7334F /* Pods-SPHTech-Assignment.modulemap */,
+				6D3C23BF98C8E9C97B1420A711A5D32F /* Pods-SPHTech-Assignment-acknowledgements.markdown */,
+				BF0A34DAFC0579508C8A12481E1138F2 /* Pods-SPHTech-Assignment-acknowledgements.plist */,
+				703B790C002C6222A2C9AC4330F42D7F /* Pods-SPHTech-Assignment-dummy.m */,
+				827302F215159B1A71E74AB14EBE8589 /* Pods-SPHTech-Assignment-frameworks.sh */,
+				53DD29E23231722BDAE0AFF9A8C1B1FB /* Pods-SPHTech-Assignment-Info.plist */,
+				66BDE1FA66C6B9C66595CD19D2207AF8 /* Pods-SPHTech-Assignment-umbrella.h */,
+				A300607E2C8E65A7F531E1222EB725A3 /* Pods-SPHTech-Assignment.debug.xcconfig */,
+				43025896B1D5C7AB36B1FD5A4EBB6083 /* Pods-SPHTech-Assignment.release.xcconfig */,
+			);
+			name = "Pods-SPHTech-Assignment";
+			path = "Target Support Files/Pods-SPHTech-Assignment";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72E38972DC14A8C7195AB1D43CDCD8D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE922051752A7A8AEE32DDF4CA5F963 /* Pods-SPHTech-AssignmentUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7504F9A107B519EA42EE34E2D1968715 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370A0D72EE8E9832CC613A126452F925 /* Pods-SPHTech-AssignmentTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEBE8401F0D264A79D50D54BEAC12AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2065AB574009FFA99EEA5B161412DAD0 /* HanekeSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF81D8EF261A7E2E5AFA9B3F733FD5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD61226F00F10E94D9C113520F8A11D5 /* Pods-SPHTech-Assignment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DE86A43E7949D27AE8D9E2AE1FDD528 /* Pods-SPHTech-Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF4927CC5BB2524F959E48C1DB8530E /* Build configuration list for PBXNativeTarget "Pods-SPHTech-Assignment" */;
+			buildPhases = (
+				ABF81D8EF261A7E2E5AFA9B3F733FD5B /* Headers */,
+				A16F3C28D34F7CA0479AF4D030E25748 /* Sources */,
+				0B8A51E34BB1AC6B76F5536EBA821956 /* Frameworks */,
+				08BD2EAEB7E455D4B91081117AB578EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5DF2F3E15F7BCEAC4FE50FEE17491D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SPHTech-Assignment";
+			productName = "Pods-SPHTech-Assignment";
+			productReference = 5CCC841D7108D91EC002668C65E0F7A0 /* Pods_SPHTech_Assignment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37F4764FFDA82FE00F39EF7B12A4D1AE /* HanekeSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA79383117153BB80DA08A0838B2A27 /* Build configuration list for PBXNativeTarget "HanekeSwift" */;
+			buildPhases = (
+				8AEBE8401F0D264A79D50D54BEAC12AA /* Headers */,
+				C52EC433C6C08F8D8D0B2B49AC8D734E /* Sources */,
+				0000664F88506BC31F31A2CE76D17404 /* Frameworks */,
+				54DDFAEB70778F87B665BEC3BA353922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanekeSwift;
+			productName = HanekeSwift;
+			productReference = 9B9369D059BE317AE8B96A55B3AA2AD4 /* Haneke.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6E8E9BC5027A1914598C6B72B677550 /* Pods-SPHTech-AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736BBC57B2CF0339725079C2BAC21764 /* Build configuration list for PBXNativeTarget "Pods-SPHTech-AssignmentTests" */;
+			buildPhases = (
+				7504F9A107B519EA42EE34E2D1968715 /* Headers */,
+				58D709478979791B5DFA36981040BB43 /* Sources */,
+				5D02BEC83ABD4FC1043635C28A75ACB3 /* Frameworks */,
+				F710CA769547E21E19E3CF473F44E8A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BB1EF15092657D95F4EB2E1C60E32C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SPHTech-AssignmentTests";
+			productName = "Pods-SPHTech-AssignmentTests";
+			productReference = 3BBF8DAE6BFCFC01BD8EA2572C6F837E /* Pods_SPHTech_AssignmentTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1360CC506CAE5C3ED792B52E4A52EAA /* Pods-SPHTech-AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA8B2B099DC128F5D9451D55849A05B /* Build configuration list for PBXNativeTarget "Pods-SPHTech-AssignmentUITests" */;
+			buildPhases = (
+				72E38972DC14A8C7195AB1D43CDCD8D7 /* Headers */,
+				4D6FED813F33099F14CB388A2AF1C095 /* Sources */,
+				6542E928BEC08CFCF56B0ECE7ABFD750 /* Frameworks */,
+				2D2F33BF3E751437CF4C8A09F200E872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C5CFB92A60593FE2F6FAAB5E9CDBAA5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SPHTech-AssignmentUITests";
+			productName = "Pods-SPHTech-AssignmentUITests";
+			productReference = 7766E3D78C6C24D1DC439DC826617AC6 /* Pods_SPHTech_AssignmentUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 96D18E3623EB077A8403B9881142E750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37F4764FFDA82FE00F39EF7B12A4D1AE /* HanekeSwift */,
+				1DE86A43E7949D27AE8D9E2AE1FDD528 /* Pods-SPHTech-Assignment */,
+				A6E8E9BC5027A1914598C6B72B677550 /* Pods-SPHTech-AssignmentTests */,
+				B1360CC506CAE5C3ED792B52E4A52EAA /* Pods-SPHTech-AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08BD2EAEB7E455D4B91081117AB578EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2F33BF3E751437CF4C8A09F200E872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DDFAEB70778F87B665BEC3BA353922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F710CA769547E21E19E3CF473F44E8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D6FED813F33099F14CB388A2AF1C095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6340F6185517167158EC06F751614256 /* Pods-SPHTech-AssignmentUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D709478979791B5DFA36981040BB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DF601AE081CBABAC3B1A8229AE54D9 /* Pods-SPHTech-AssignmentTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16F3C28D34F7CA0479AF4D030E25748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5688DE817314565182BCDEACD42B21 /* Pods-SPHTech-Assignment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52EC433C6C08F8D8D0B2B49AC8D734E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC2C5D7EC058A4E4AE20599F11401D6 /* Cache.swift in Sources */,
+				F281D63D8CEE5408F77D9BEF6F91A69A /* CGSize+Swift.swift in Sources */,
+				8FEC4BEF1D732E0018154FC06337E85E /* CryptoSwiftMD5.swift in Sources */,
+				123E2226CF10DF6ED327654BA10E0789 /* Data.swift in Sources */,
+				C06B5848B1243B9357D532DCFECBC19D /* DiskCache.swift in Sources */,
+				5DAD504DB2191D47FA1C8F908BB4185C /* DiskFetcher.swift in Sources */,
+				98B1B1640040CF1FD87912AFD0FB5D38 /* Fetch.swift in Sources */,
+				5F8D6B619F496DFD4D4A68ADCD86CB46 /* Fetcher.swift in Sources */,
+				E75466D2E2BF3926F459A2DF0C69EBBB /* Format.swift in Sources */,
+				19292643B7B23A72EC2BD2F0FD98541D /* Haneke.swift in Sources */,
+				613C4B99149B97882D2435C3800868F6 /* HanekeSwift-dummy.m in Sources */,
+				366D1BC88313831616BBF5F9D048451C /* Log.swift in Sources */,
+				46A176C5024A8A783EB2D0201791E2C4 /* NetworkFetcher.swift in Sources */,
+				D2B7F41AE521A3EB7BE9782F91F5BFB4 /* NSFileManager+Haneke.swift in Sources */,
+				01356113A7D19762FB9B67A947A73C88 /* NSHTTPURLResponse+Haneke.swift in Sources */,
+				4510928CDF72F92777152DF798EDEC0F /* NSURLResponse+Haneke.swift in Sources */,
+				70972E1E425DDD91BF58ABDB75909886 /* String+Haneke.swift in Sources */,
+				69140C09015004B047868E2B190EFD8F /* UIButton+Haneke.swift in Sources */,
+				571ED741FC8624B5C0ADE35355B7EFDA /* UIImage+Haneke.swift in Sources */,
+				D33BAC510068EA503115F80D93164E31 /* UIImageView+Haneke.swift in Sources */,
+				1C55FC70B34D87082A63297F7DBC4333 /* UIView+Haneke.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C5CFB92A60593FE2F6FAAB5E9CDBAA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SPHTech-Assignment";
+			target = 1DE86A43E7949D27AE8D9E2AE1FDD528 /* Pods-SPHTech-Assignment */;
+			targetProxy = 138B1BE343FA92BEB431664AE8DC8FF0 /* PBXContainerItemProxy */;
+		};
+		9BB1EF15092657D95F4EB2E1C60E32C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SPHTech-Assignment";
+			target = 1DE86A43E7949D27AE8D9E2AE1FDD528 /* Pods-SPHTech-Assignment */;
+			targetProxy = F9ED86BCD4A7015883E30997AE750C62 /* PBXContainerItemProxy */;
+		};
+		E5DF2F3E15F7BCEAC4FE50FEE17491D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HanekeSwift;
+			target = 37F4764FFDA82FE00F39EF7B12A4D1AE /* HanekeSwift */;
+			targetProxy = E4B6B049A0E0E99774BCB84BBD27C3DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		181D8EFAE7824534BCD3AA25D6B163E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295D7823849907E9F5299FAE1800C6B8 /* Pods-SPHTech-AssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPHTech-AssignmentUITests/Pods-SPHTech-AssignmentUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPHTech-AssignmentUITests/Pods-SPHTech-AssignmentUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		506E6743944A6E7F2924D1FCA6CC6F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43025896B1D5C7AB36B1FD5A4EBB6083 /* Pods-SPHTech-Assignment.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPHTech-Assignment/Pods-SPHTech-Assignment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPHTech-Assignment/Pods-SPHTech-Assignment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A911B4806C5D9034185DC66ADD69BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2984C36D1D25B8B7558A8B054A2BC88 /* HanekeSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift/HanekeSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanekeSwift/HanekeSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HanekeSwift/HanekeSwift.modulemap";
+				PRODUCT_MODULE_NAME = Haneke;
+				PRODUCT_NAME = Haneke;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2A66CCA3A557A84854CE25DD750735A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67CA9F25B46FA01327E6528ED594EFA /* Pods-SPHTech-AssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPHTech-AssignmentUITests/Pods-SPHTech-AssignmentUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPHTech-AssignmentUITests/Pods-SPHTech-AssignmentUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA556310D078EB314DA0EC75B151C18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84798B515640FA79E6C893310AC0DC2D /* Pods-SPHTech-AssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPHTech-AssignmentTests/Pods-SPHTech-AssignmentTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPHTech-AssignmentTests/Pods-SPHTech-AssignmentTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7506CC8AD2E880FB1D5080EA99ABCE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2984C36D1D25B8B7558A8B054A2BC88 /* HanekeSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift/HanekeSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanekeSwift/HanekeSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HanekeSwift/HanekeSwift.modulemap";
+				PRODUCT_MODULE_NAME = Haneke;
+				PRODUCT_NAME = Haneke;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC452A9597E9D48E7EAED957236FB36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54008079FB8EFFD086E3DF2E7369915 /* Pods-SPHTech-AssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPHTech-AssignmentTests/Pods-SPHTech-AssignmentTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPHTech-AssignmentTests/Pods-SPHTech-AssignmentTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEA7BAC637A793571E31C939052B9A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A300607E2C8E65A7F531E1222EB725A3 /* Pods-SPHTech-Assignment.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SPHTech-Assignment/Pods-SPHTech-Assignment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPHTech-Assignment/Pods-SPHTech-Assignment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA8B2B099DC128F5D9451D55849A05B /* Build configuration list for PBXNativeTarget "Pods-SPHTech-AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181D8EFAE7824534BCD3AA25D6B163E6 /* Debug */,
+				B2A66CCA3A557A84854CE25DD750735A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736BBC57B2CF0339725079C2BAC21764 /* Build configuration list for PBXNativeTarget "Pods-SPHTech-AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA556310D078EB314DA0EC75B151C18F /* Debug */,
+				EC452A9597E9D48E7EAED957236FB36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF4927CC5BB2524F959E48C1DB8530E /* Build configuration list for PBXNativeTarget "Pods-SPHTech-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA7BAC637A793571E31C939052B9A95 /* Debug */,
+				506E6743944A6E7F2924D1FCA6CC6F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA79383117153BB80DA08A0838B2A27 /* Build configuration list for PBXNativeTarget "HanekeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7506CC8AD2E880FB1D5080EA99ABCE7 /* Debug */,
+				8A911B4806C5D9034185DC66ADD69BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

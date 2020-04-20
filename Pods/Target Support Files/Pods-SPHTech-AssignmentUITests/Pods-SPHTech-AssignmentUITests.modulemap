@@ -1,0 +1,6 @@
+framework module Pods_SPHTech_AssignmentUITests {
+  umbrella header "Pods-SPHTech-AssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

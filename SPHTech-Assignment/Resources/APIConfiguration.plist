@@ -2,13 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
+	<key>DEV</key>
 	<dict>
-		<key>SPHTech-Assignment.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
+		<key>baseURL</key>
+		<string>https://data.gov.sg/api</string>
+	</dict>
+	<key>PROD</key>
+	<dict>
+		<key>baseURL</key>
+		<string>https://data.gov.sg/api</string>
 	</dict>
 </dict>
 </plist>
