@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SPHTech_AssignmentUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SPHTech_AssignmentUITestsVersionString[];
+FOUNDATION_EXPORT double Pods_SPHTech_Assignment_SPHTech_AssignmentTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SPHTech_Assignment_SPHTech_AssignmentTestsVersionString[];
 

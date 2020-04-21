@@ -9,12 +9,10 @@ target 'SPHTech-Assignment' do
   # Pods for SPHTech-Assignment
 
   target 'SPHTech-AssignmentTests' do
-    inherit! :search_paths
     # Pods for testing
   end
 
   target 'SPHTech-AssignmentUITests' do
-    inherit! :search_paths
     # Pods for testing
   end
 

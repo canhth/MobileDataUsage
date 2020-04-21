@@ -137,12 +137,16 @@ final class MobileDataCell: UITableViewCell {
     func configCell(with record: YearRecord) {
         yearLabel.text = record.year
         dataAmountLabel.text = "Total data: \(record.totalVolumeData)"
-        dropDownButton.setImage(nil, for: .normal)
+        
         quartersStackView.isHidden = true
         
         if record.isDecreasedVolumeData {
             quartersStackView.createQuarterViews(record.quarterRecords)
             dropDownButton.setImage(dropdownImage, for: .normal)
+            dropDownButton.isEnabled = true
+        } else {
+            dropDownButton.setImage(nil, for: .normal)
+            dropDownButton.isEnabled = false
         }
     }
 }

@@ -14,6 +14,7 @@ final class QuartersStackView: UIStackView {
         let label = UILabel()
         label.font = SPHFont.subTitle
         label.textColor = AppColor.white
+        label.accessibilityIdentifier = ""
         return label
     }
     
