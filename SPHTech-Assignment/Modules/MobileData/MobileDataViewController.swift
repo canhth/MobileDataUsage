@@ -41,7 +41,11 @@ final class MobileDataViewController: BaseViewController {
     
     private let loadingIndicator: UIActivityIndicatorView = {
         let indicator = UIActivityIndicatorView()
-        indicator.style = .medium
+        if #available(iOS 13.0, *) {
+            indicator.style = .medium
+        } else {
+            indicator.style = .white
+        }
         indicator.color = AppColor.white
         return indicator
     }()
