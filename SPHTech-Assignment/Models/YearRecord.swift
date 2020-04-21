@@ -9,7 +9,18 @@
 import Foundation
 
 struct YearRecord {
+    
     let year: String
-    var quaterRecords: [QuaterRecord]
-    var totalData: Float
+    var totalVolumeData: Float = 0
+    var isDecreasedVolumeData: Bool = false
+    
+    var quaterRecords: [QuaterRecord] {
+        didSet {
+            let volumeData = quaterRecords.compactMap( { Float($0.volumeOfMobileData) })
+            totalVolumeData = volumeData.reduce(0, +)
+            isDecreasedVolumeData = volumeData.isAscending()
+        }
+    }
+    
+    
 }

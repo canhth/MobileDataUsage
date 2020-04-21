@@ -17,6 +17,7 @@ public enum Environment: String {
 public protocol NetworkConfiguration {
     var baseURL: String { get }
     var environment: Environment { get }
+    var resourceId: String { get }
 }
 
 public final class DefaultNetworkConfiguration: NetworkConfiguration {
@@ -27,6 +28,11 @@ public final class DefaultNetworkConfiguration: NetworkConfiguration {
     public var baseURL: String {
         return configuration?["baseURL"] as? String ?? ""
     }
+    
+    public var resourceId: String {
+        return configuration?["resourceId"] as? String ?? ""
+    }
+    
     public let environment: Environment
 
     private let fileName: String

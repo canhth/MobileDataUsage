@@ -4,11 +4,15 @@
 <dict>
 	<key>DEV</key>
 	<dict>
+		<key>resourceId</key>
+		<string>a807b7ab-6cad-4aa6-87d0-e283a7353a0f</string>
 		<key>baseURL</key>
 		<string>https://data.gov.sg/api</string>
 	</dict>
 	<key>PROD</key>
 	<dict>
+		<key>resourceId</key>
+		<string>a807b7ab-6cad-4aa6-87d0-e283a7353a0f</string>
 		<key>baseURL</key>
 		<string>https://data.gov.sg/api</string>
 	</dict>

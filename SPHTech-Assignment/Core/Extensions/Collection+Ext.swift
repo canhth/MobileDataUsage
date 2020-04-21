@@ -17,3 +17,13 @@ extension Collection {
         return nil
     }
 }
+
+extension Collection where Element: Comparable {
+    func isAscending() -> Bool {
+        return zip(self, self.dropFirst()).allSatisfy(<=)
+    }
+
+    func isDescending() -> Bool {
+        return zip(self, self.dropFirst()).allSatisfy(>=)
+    }
+}
