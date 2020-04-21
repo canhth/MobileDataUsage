@@ -57,8 +57,8 @@ final class MobileDataViewController: BaseViewController {
     // MARK: - Setup
 
     private func setupView() {
-        preferLargeTitleNavigationBar(enable: true, with: "Mobile Data 2008 - 2018")
         statusBarStyle = .lightContent
+        preferLargeTitleNavigationBar(enable: true, with: "Mobile Data 2008 - 2018")
         
         view.addSubview(tableView)
         tableView.anchor(top: view.layoutMarginsGuide.topAnchor,
