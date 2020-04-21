@@ -13,10 +13,10 @@ final class MobileDataTests: SPHTech_AssignmentTests {
     
     private let viewController = MobileDataViewController()
     private let interactor = MobileDataInteractor()
-    
+    private let router = MobileDataRouter(rootController: UINavigationController())
     private lazy var presenter = MobileDataPresenter(view: viewController,
                                                      interactor: interactor,
-                                                     router: MobileDataRouter(rootController: UINavigationController()))
+                                                     router: router)
     
     override func setUp() {
         super.setUp()
@@ -44,6 +44,7 @@ final class MobileDataTests: SPHTech_AssignmentTests {
         }
     }
     
+    /// Test Presenter gets list data by Mock data
     func testFetchingDataByMockData() {
         let mockInteractor = MockMobileDataInteractor()
         presenter = MobileDataPresenter(view: viewController,
@@ -62,8 +63,29 @@ final class MobileDataTests: SPHTech_AssignmentTests {
         XCTAssertTrue(presenter.numberOfYearRecords() > numberOfYearRecords, "Should load at more records succesfully.")
     }
     
+    // Test pull to reload page
+    func testReloadPage() {
+        presenter.refreshListData()
+        XCTAssertTrue(presenter.numberOfYearRecords() == 0, "Should clean up everything.")
+        
+        let expect = expectation(description: "test_reloadData_by_network")
+        DispatchQueue.main.asyncAfter(deadline: .now() + limitTimeOut - 1) {
+            expect.fulfill()
+        }
+        
+        waitForExpectations(timeout: limitTimeOut) { [unowned self] error in
+            if let error = error {
+                XCTFail("waitForExpectationsWithTimeout errored: \(error)")
+            } else {
+                XCTAssertTrue(self.presenter.numberOfYearRecords() > 0, "Should reload after pulldown to refresh.")
+            }
+        }
+    }
     
-    func loadDataFromLocal() {
+    // MARK: Privates nested tests
+    
+    // Load data from local
+    private func loadDataFromLocal() {
         interactor.fetchListMobileData(isCached: true) { (result) in
             switch result {
             case .success(let records):

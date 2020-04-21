@@ -75,8 +75,9 @@ final class MobileDataViewController: BaseViewController {
     
     @objc
     private func handleRefresh(_ refreshControl: UIRefreshControl) {
-        guard refreshControl.isRefreshing else { return }
-        presenter.refreshListData()
+        if !refreshControl.isRefreshing {
+            presenter.refreshListData()
+        }
     }
 }
 

@@ -37,13 +37,6 @@
             BlueprintName = "SPHTech-Assignment"
             ReferencedContainer = "container:SPHTech-Assignment.xcodeproj">
          </BuildableReference>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A606D3AF244DE4E20043B5B3"
-            BuildableName = "SPHTech-AssignmentTests.xctest"
-            BlueprintName = "SPHTech-AssignmentTests"
-            ReferencedContainer = "container:SPHTech-Assignment.xcodeproj">
-         </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
          <TestableReference

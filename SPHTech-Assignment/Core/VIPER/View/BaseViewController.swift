@@ -33,7 +33,6 @@ open class BaseViewController: UIViewController {
 
     deinit {
         Logger.shared.verbose(tag: .lifeCycle, object: self)
-        hideProgressHUD()
     }
     
     @available(*, unavailable, message: "Loading this view controller from a nib is unsupported in favor of initializer dependency injection." )
@@ -44,18 +43,6 @@ open class BaseViewController: UIViewController {
     @available(*, unavailable, message: "Loading this view controller from a nib is unsupported in favor of initializer dependency injection.")
     public required init?(coder aDecoder: NSCoder) {
         fatalError("This view is not compatible to load from a nib/storyboard")
-    }
-
-    open override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
-    override open func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-    }
-
-    override open func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
     }
     
     open override var prefersStatusBarHidden: Bool {

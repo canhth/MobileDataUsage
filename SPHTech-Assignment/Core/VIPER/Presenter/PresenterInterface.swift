@@ -11,7 +11,3 @@ import Foundation
 public protocol PresenterInterface: AnyObject {
     func viewDidLoad()
 }
-
-public extension PresenterInterface {
-    func viewDidLoad() { }
-}

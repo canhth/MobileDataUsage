@@ -110,7 +110,7 @@ final class NetworkClientTests: SPHTech_AssignmentTests {
                                 expect.fulfill()
         }
         
-        waitForExpectations(timeout: limitTimeOut * 2) { error in
+        waitForExpectations(timeout: limitTimeOut * 5) { error in
             if let error = error {
                 XCTFail("waitForExpectationsWithTimeout errored: \(error)")
             }

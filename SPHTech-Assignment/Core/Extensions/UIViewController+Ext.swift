@@ -10,19 +10,6 @@ import UIKit
 
 extension UIViewController {
     
-    func validateOnPresent(_ controller: UIViewController) -> Bool {
-        switch (controller.presentingViewController, presentedViewController) {
-        case (.some(let parent), _):
-            Logger.shared.warning(object: "\(controller) is being presented by \(parent) already.")
-            return false
-        case (_, .some(let child)):
-            Logger.shared.warning(object: "`\(self)` is presenting another \(child) already.")
-            return false
-        default:
-            return true
-        }
-    }
-    
     /// Apply large title for navigation bar
     /// - Parameter title: Navigation title
     func preferLargeTitleNavigationBar(enable: Bool,

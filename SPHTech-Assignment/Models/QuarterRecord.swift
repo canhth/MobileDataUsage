@@ -14,10 +14,10 @@ struct QuarterRecord: Decodable {
     let volumeOfMobileData: String
     
     var year: String {
-        return quarter.components(separatedBy: "-").first ?? ""
+        return quarter.components(separatedBy: "-").first ?? "2008"
     }
     
     var quarterName: String {
-        return quarter.components(separatedBy: "-").last ?? ""
+        return quarter.components(separatedBy: "-").last ?? "Q1"
     }
 }

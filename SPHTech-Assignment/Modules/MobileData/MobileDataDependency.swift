@@ -17,7 +17,7 @@ final class MobileDataDependency: MobileDataDependencyInterface {
         let view = MobileDataViewController()
 
         let interactor = MobileDataInteractor()
-        let navigationController = NavigationController()
+        let navigationController = UINavigationController()
         let router = MobileDataRouter(rootController: navigationController)
         router.setRootView(view, animated: false)
 

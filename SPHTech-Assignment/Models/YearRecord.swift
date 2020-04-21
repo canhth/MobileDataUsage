@@ -25,6 +25,7 @@ struct YearRecord {
     init(quarter: QuarterRecord) {
         year = quarter.year
         totalVolumeData = Float(quarter.volumeOfMobileData) ?? 0
+        
         quarterRecords = [quarter]
     }
 }

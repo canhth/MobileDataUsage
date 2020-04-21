@@ -19,7 +19,6 @@
 		A6936809244DEA3E00B51A03 /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69367E3244DEA3E00B51A03 /* PresenterInterface.swift */; };
 		A693680A244DEA3E00B51A03 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69367E5244DEA3E00B51A03 /* BaseViewController.swift */; };
 		A693680B244DEA3E00B51A03 /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69367E6244DEA3E00B51A03 /* ViewInterface.swift */; };
-		A693680C244DEA3E00B51A03 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69367E7244DEA3E00B51A03 /* NavigationController.swift */; };
 		A693680D244DEA3E00B51A03 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69367E9244DEA3E00B51A03 /* NavigationRouter.swift */; };
 		A693680E244DEA3E00B51A03 /* RouterInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69367EA244DEA3E00B51A03 /* RouterInterfaces.swift */; };
 		A693680F244DEA3E00B51A03 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69367EB244DEA3E00B51A03 /* ViewRouter.swift */; };
@@ -101,7 +100,6 @@
 		A69367E3244DEA3E00B51A03 /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
 		A69367E5244DEA3E00B51A03 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A69367E6244DEA3E00B51A03 /* ViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
-		A69367E7244DEA3E00B51A03 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		A69367E9244DEA3E00B51A03 /* NavigationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
 		A69367EA244DEA3E00B51A03 /* RouterInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterInterfaces.swift; sourceTree = "<group>"; };
 		A69367EB244DEA3E00B51A03 /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
@@ -299,7 +297,6 @@
 			children = (
 				A69367E5244DEA3E00B51A03 /* BaseViewController.swift */,
 				A69367E6244DEA3E00B51A03 /* ViewInterface.swift */,
-				A69367E7244DEA3E00B51A03 /* NavigationController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -694,7 +691,6 @@
 				A693680B244DEA3E00B51A03 /* ViewInterface.swift in Sources */,
 				A606D39E244DE4E00043B5B3 /* AppDelegate.swift in Sources */,
 				A693680F244DEA3E00B51A03 /* ViewRouter.swift in Sources */,
-				A693680C244DEA3E00B51A03 /* NavigationController.swift in Sources */,
 				A6936841244E86A400B51A03 /* MobileDataViewController.swift in Sources */,
 				A6936803244DEA3E00B51A03 /* NetworkError.swift in Sources */,
 				A6936804244DEA3E00B51A03 /* NetworkConfiguration.swift in Sources */,
