@@ -27,5 +27,4 @@ struct YearRecord {
         totalVolumeData = Float(quarter.volumeOfMobileData) ?? 0
         quarterRecords = [quarter]
     }
-    
 }

@@ -44,7 +44,7 @@ final class QuartersStackView: UIStackView {
         }
     }
     
-    func cleanupSubViews() {
+    private func cleanupSubViews() {
         // Try to remove all the subview before setup the new views
         arrangedSubviews.filter({ $0 is UILabel })
             .forEach({ $0.removeFromSuperview() })

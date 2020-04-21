@@ -32,7 +32,6 @@
 		A6936825244DEC3000B51A03 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936824244DEC3000B51A03 /* UIView+Ext.swift */; };
 		A6936828244DEC4E00B51A03 /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936826244DEC4E00B51A03 /* UIFont+Ext.swift */; };
 		A6936829244DEC4E00B51A03 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936827244DEC4E00B51A03 /* UIColor+Ext.swift */; };
-		A693682B244DEC5F00B51A03 /* Dispatch+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693682A244DEC5E00B51A03 /* Dispatch+Ext.swift */; };
 		A693682D244DEC6700B51A03 /* Collection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693682C244DEC6700B51A03 /* Collection+Ext.swift */; };
 		A693682F244DEC7B00B51A03 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693682E244DEC7B00B51A03 /* Constraints.swift */; };
 		A6936831244DF01600B51A03 /* QuarterRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936830244DF01600B51A03 /* QuarterRecord.swift */; };
@@ -47,6 +46,16 @@
 		A6936845244E95B600B51A03 /* MobileDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936844244E95B600B51A03 /* MobileDataCell.swift */; };
 		A6936847244E975100B51A03 /* QuartersStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936846244E975100B51A03 /* QuartersStackView.swift */; };
 		A6936849244EB98E00B51A03 /* MobileDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936848244EB98E00B51A03 /* MobileDataResponse.swift */; };
+		A6936850244EE89700B51A03 /* TestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693684F244EE89700B51A03 /* TestSuite.swift */; };
+		A6936852244EE8D700B51A03 /* mobiledata_page0.json in Resources */ = {isa = PBXBuildFile; fileRef = A6936851244EE8D700B51A03 /* mobiledata_page0.json */; };
+		A6936854244EE8E400B51A03 /* mobiledata_page1.json in Resources */ = {isa = PBXBuildFile; fileRef = A6936853244EE8E400B51A03 /* mobiledata_page1.json */; };
+		A6936856244EE8EE00B51A03 /* mobiledata_page2.json in Resources */ = {isa = PBXBuildFile; fileRef = A6936855244EE8EE00B51A03 /* mobiledata_page2.json */; };
+		A6936858244EE98000B51A03 /* MobileDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936857244EE98000B51A03 /* MobileDataTests.swift */; };
+		A693685A244EE99100B51A03 /* MockMobileDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936859244EE99100B51A03 /* MockMobileDataTests.swift */; };
+		A693685C244EE9AF00B51A03 /* MobileDataCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693685B244EE9AF00B51A03 /* MobileDataCellTests.swift */; };
+		A693685E244EE9DE00B51A03 /* NetworkClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693685D244EE9DE00B51A03 /* NetworkClientTests.swift */; };
+		A6936860244EEA0C00B51A03 /* mobiledata_error.json in Resources */ = {isa = PBXBuildFile; fileRef = A693685F244EEA0C00B51A03 /* mobiledata_error.json */; };
+		A6936862244EF9AF00B51A03 /* ErrorEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936861244EF9AF00B51A03 /* ErrorEndpoint.swift */; };
 		D6FAC7E3383F0C7E57B14DB9 /* Pods_SPHTech_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF00E871DC54D2633CD2D4E /* Pods_SPHTech_AssignmentTests.framework */; };
 		D98CCC8574D4381A2D0890EB /* Pods_SPHTech_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382C0E6BBF97097E8D4BF3FE /* Pods_SPHTech_Assignment.framework */; };
 		DA9DC2AA971088262012E6E4 /* Pods_SPHTech_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8DD8B8FA6CDE1B94C27E68 /* Pods_SPHTech_AssignmentUITests.framework */; };
@@ -105,7 +114,6 @@
 		A6936824244DEC3000B51A03 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		A6936826244DEC4E00B51A03 /* UIFont+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
 		A6936827244DEC4E00B51A03 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
-		A693682A244DEC5E00B51A03 /* Dispatch+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dispatch+Ext.swift"; sourceTree = "<group>"; };
 		A693682C244DEC6700B51A03 /* Collection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Ext.swift"; sourceTree = "<group>"; };
 		A693682E244DEC7B00B51A03 /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 		A6936830244DF01600B51A03 /* QuarterRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterRecord.swift; sourceTree = "<group>"; };
@@ -120,6 +128,16 @@
 		A6936844244E95B600B51A03 /* MobileDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataCell.swift; sourceTree = "<group>"; };
 		A6936846244E975100B51A03 /* QuartersStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartersStackView.swift; sourceTree = "<group>"; };
 		A6936848244EB98E00B51A03 /* MobileDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataResponse.swift; sourceTree = "<group>"; };
+		A693684F244EE89700B51A03 /* TestSuite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSuite.swift; sourceTree = "<group>"; };
+		A6936851244EE8D700B51A03 /* mobiledata_page0.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mobiledata_page0.json; sourceTree = "<group>"; };
+		A6936853244EE8E400B51A03 /* mobiledata_page1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mobiledata_page1.json; sourceTree = "<group>"; };
+		A6936855244EE8EE00B51A03 /* mobiledata_page2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mobiledata_page2.json; sourceTree = "<group>"; };
+		A6936857244EE98000B51A03 /* MobileDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataTests.swift; sourceTree = "<group>"; };
+		A6936859244EE99100B51A03 /* MockMobileDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMobileDataTests.swift; sourceTree = "<group>"; };
+		A693685B244EE9AF00B51A03 /* MobileDataCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataCellTests.swift; sourceTree = "<group>"; };
+		A693685D244EE9DE00B51A03 /* NetworkClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientTests.swift; sourceTree = "<group>"; };
+		A693685F244EEA0C00B51A03 /* mobiledata_error.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mobiledata_error.json; sourceTree = "<group>"; };
+		A6936861244EF9AF00B51A03 /* ErrorEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEndpoint.swift; sourceTree = "<group>"; };
 		BD485FA05875A965C5834399 /* Pods-SPHTech-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHTech-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-SPHTech-AssignmentUITests/Pods-SPHTech-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D236E0910C3BB8DC62B4E10A /* Pods-SPHTech-AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHTech-AssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-SPHTech-AssignmentUITests/Pods-SPHTech-AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DDF00E871DC54D2633CD2D4E /* Pods_SPHTech_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPHTech_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +212,10 @@
 		A606D3B3244DE4E20043B5B3 /* SPHTech-AssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
+				A693684D244EE87A00B51A03 /* Helper */,
+				A693684C244EE87400B51A03 /* Modules */,
+				A693684B244EE86A00B51A03 /* NetworkingTests */,
+				A693684A244EE84B00B51A03 /* Resources */,
 				A606D3B4244DE4E20043B5B3 /* SPHTech_AssignmentTests.swift */,
 				A606D3B6244DE4E20043B5B3 /* Info.plist */,
 			);
@@ -245,7 +267,6 @@
 			isa = PBXGroup;
 			children = (
 				A693682C244DEC6700B51A03 /* Collection+Ext.swift */,
-				A693682A244DEC5E00B51A03 /* Dispatch+Ext.swift */,
 				A6936827244DEC4E00B51A03 /* UIColor+Ext.swift */,
 				A6936826244DEC4E00B51A03 /* UIFont+Ext.swift */,
 				A69367DC244DEA3E00B51A03 /* UIViewController+Ext.swift */,
@@ -359,6 +380,52 @@
 				A6936846244E975100B51A03 /* QuartersStackView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A693684A244EE84B00B51A03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6936851244EE8D700B51A03 /* mobiledata_page0.json */,
+				A6936853244EE8E400B51A03 /* mobiledata_page1.json */,
+				A6936855244EE8EE00B51A03 /* mobiledata_page2.json */,
+				A693685F244EEA0C00B51A03 /* mobiledata_error.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A693684B244EE86A00B51A03 /* NetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A693685D244EE9DE00B51A03 /* NetworkClientTests.swift */,
+				A6936861244EF9AF00B51A03 /* ErrorEndpoint.swift */,
+			);
+			path = NetworkingTests;
+			sourceTree = "<group>";
+		};
+		A693684C244EE87400B51A03 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A693684E244EE88200B51A03 /* MobileDataTests */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A693684D244EE87A00B51A03 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A693684F244EE89700B51A03 /* TestSuite.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A693684E244EE88200B51A03 /* MobileDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6936859244EE99100B51A03 /* MockMobileDataTests.swift */,
+				A6936857244EE98000B51A03 /* MobileDataTests.swift */,
+				A693685B244EE9AF00B51A03 /* MobileDataCellTests.swift */,
+			);
+			path = MobileDataTests;
 			sourceTree = "<group>";
 		};
 		C3C0CDB30AC0E3B37FC0EF68 /* Pods */ = {
@@ -502,6 +569,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6936860244EEA0C00B51A03 /* mobiledata_error.json in Resources */,
+				A6936852244EE8D700B51A03 /* mobiledata_page0.json in Resources */,
+				A6936856244EE8EE00B51A03 /* mobiledata_page2.json in Resources */,
+				A6936854244EE8E400B51A03 /* mobiledata_page1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,7 +682,6 @@
 				A693683E244E86A400B51A03 /* MobileDataPresenter.swift in Sources */,
 				A6936828244DEC4E00B51A03 /* UIFont+Ext.swift in Sources */,
 				A6936840244E86A400B51A03 /* MobileDataDependency.swift in Sources */,
-				A693682B244DEC5F00B51A03 /* Dispatch+Ext.swift in Sources */,
 				A693682F244DEC7B00B51A03 /* Constraints.swift in Sources */,
 				A6936833244DF02500B51A03 /* YearRecord.swift in Sources */,
 				A693680A244DEA3E00B51A03 /* BaseViewController.swift in Sources */,
@@ -647,7 +717,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6936862244EF9AF00B51A03 /* ErrorEndpoint.swift in Sources */,
+				A693685C244EE9AF00B51A03 /* MobileDataCellTests.swift in Sources */,
+				A6936858244EE98000B51A03 /* MobileDataTests.swift in Sources */,
+				A6936850244EE89700B51A03 /* TestSuite.swift in Sources */,
 				A606D3B5244DE4E20043B5B3 /* SPHTech_AssignmentTests.swift in Sources */,
+				A693685A244EE99100B51A03 /* MockMobileDataTests.swift in Sources */,
+				A693685E244EE9DE00B51A03 /* NetworkClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

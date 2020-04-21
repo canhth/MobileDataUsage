@@ -38,6 +38,7 @@ extension MobileDataInteractor: MobileDataInteractorInterface {
     
     func cleanUp() {
         offset = 0
+        totalResults = 0
     }
     
     func fetchListMobileData(isCached: Bool, completion: @escaping (Result<[YearRecord], NetworkError>) -> Void) {
@@ -81,7 +82,7 @@ extension MobileDataInteractor: MobileDataInteractorInterface {
             // Init first value if list isEmpty
             if yearRecords.isEmpty {
                 yearRecords.append(YearRecord(quarter: quarter))
-                continue
+                continue 
             }
             
             guard var currentYearRecord = yearRecords.last else { continue }

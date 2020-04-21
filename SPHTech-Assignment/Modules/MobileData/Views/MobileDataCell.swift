@@ -109,12 +109,6 @@ final class MobileDataCell: UITableViewCell {
                          paddingLeft: Constraints.paddingX2,
                          paddingRight: Constraints.paddingX2)
         
-//        contentView.addSubview(dropDownButton)
-//        dropDownButton.anchor(top: stackView.topAnchor,
-//                              left: stackView.rightAnchor,
-//                              right: contentView.rightAnchor,
-//                              paddingRight: Constraints.basePadding)
-        
         contentView.addSubview(separateView)
         separateView.anchor(top: stackView.bottomAnchor,
                             left: contentView.leftAnchor,
@@ -149,8 +143,6 @@ final class MobileDataCell: UITableViewCell {
         if record.isDecreasedVolumeData {
             quartersStackView.createQuarterViews(record.quarterRecords)
             dropDownButton.setImage(dropdownImage, for: .normal)
-        } else {
-            quartersStackView.cleanupSubViews()
         }
     }
 }
