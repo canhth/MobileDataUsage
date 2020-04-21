@@ -25,8 +25,6 @@ class NavigationRouter: ViewRouter, NavigationRouterInterface {
     // MARK: - Push & Pop
 
     func push(_ view: ViewInterface, animated: Bool, hideBottomBar: Bool?, popCompletion: (() -> Void)?) {
-        guard validateOnPush(view.toController()) else { return }
-
         let newController = view.toController()
         if let hideBottomBar = hideBottomBar {
             newController.hidesBottomBarWhenPushed = hideBottomBar
@@ -45,8 +43,6 @@ class NavigationRouter: ViewRouter, NavigationRouterInterface {
     // MARK: - Root Module
 
     func setRootView(_ view: ViewInterface, animated: Bool, hideNavigationBar: Bool?) {
-        guard validateOnPush(view.toController()) else { return }
-
         let newController = view.toController()
         let oldControllers = rootController.viewControllers
 
@@ -64,16 +60,6 @@ private extension NavigationRouter {
         guard let completion = popCompletions[controller] else { return }
         popCompletions.removeValue(forKey: controller)
         completion()
-    }
-
-    func validateOnPush(_ controller: UIViewController) -> Bool {
-        switch controller {
-        case is UINavigationController:
-            Logger.shared.warning(object: "can not push \(controller), which is UINavigationController.")
-            return false
-        default:
-            return true
-        }
     }
 }
 

@@ -26,6 +26,7 @@ final class MobileDataViewController: BaseViewController {
     // MARK: - Setup
 
     private func setupView() {
+        preferLargeTitleNavigationBar(enable: true, with: "Mobile Data 2008 - 2018")
     }
 }
 

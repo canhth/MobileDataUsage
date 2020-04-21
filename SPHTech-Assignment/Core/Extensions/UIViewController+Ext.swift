@@ -8,7 +8,8 @@
 
 import UIKit
 
-public extension UIViewController {
+extension UIViewController {
+    
     func validateOnPresent(_ controller: UIViewController) -> Bool {
         switch (controller.presentingViewController, presentedViewController) {
         case (.some(let parent), _):
@@ -20,5 +21,23 @@ public extension UIViewController {
         default:
             return true
         }
+    }
+    
+    /// Apply large title for navigation bar
+    /// - Parameter title: Navigation title
+    func preferLargeTitleNavigationBar(enable: Bool,
+                                       with title: String,
+                                       displayMode: UINavigationItem.LargeTitleDisplayMode = .automatic) {
+        navigationItem.title = title
+        navigationController?.navigationBar.barTintColor = AppColor.darkBackground
+        navigationController?.navigationBar.titleTextAttributes = [
+            .foregroundColor: AppColor.lightHeader
+        ]
+        navigationController?.navigationBar.prefersLargeTitles = enable
+        navigationController?.navigationItem.largeTitleDisplayMode = displayMode
+        navigationController?.navigationBar.largeTitleTextAttributes = [
+            .foregroundColor: AppColor.white,
+            .font: MVFont.headLine
+        ]
     }
 }

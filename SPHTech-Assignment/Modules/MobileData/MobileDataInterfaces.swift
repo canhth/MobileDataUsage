@@ -11,22 +11,22 @@
 import Foundation
 
 // Dependency
-public protocol MobileDataDependencyInterface {
+protocol MobileDataDependencyInterface {
     func makeMobileDataView() -> ViewInterface
 }
 
 // Router
-public protocol MobileDataRouterInterface: NavigationRouterInterface {
+protocol MobileDataRouterInterface: NavigationRouterInterface {
 }
 
 // ViewController
-public protocol MobileDataViewInterface: ViewInterface {
+protocol MobileDataViewInterface: ViewInterface {
 }
 
 // Presenter
-public protocol MobileDataPresenterInterface: PresenterInterface {
+protocol MobileDataPresenterInterface: PresenterInterface {
 }
 
 // Interactor
-public protocol MobileDataInteractorInterface {
+protocol MobileDataInteractorInterface {
 }

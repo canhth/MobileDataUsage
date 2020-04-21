@@ -12,49 +12,19 @@ enum MVFont {
     
     static let headLine = bold(ofSize: 30)
     
-    static let section = black(ofSize: 20)
+    static let section = bold(ofSize: 17)
     
-    static let channelSection = bold(ofSize: 20)
+    static let title = regular(ofSize: 16)
     
-    static let subSection = medium(ofSize: 16)
+    static let subTitle = regular(ofSize: 13)
     
-    static let title = bold(ofSize: 17)
-    
-    static let category = bold(ofSize: 18)
-    
-    static let subTitle = bold(ofSize: 13)
-    
-    private enum Roboto {
-        static let black = "Roboto-Black"
-        static let bold = "Roboto-Bold"
-        static let light = "Roboto-Light"
-        static let medium = "Roboto-Medium"
-        static let regular = "Roboto-Regular"
-    }
+    static let numberValue = regular(ofSize: 15)
     
     private static func regular(ofSize: CGFloat) -> UIFont {
-        return customFont(name: Roboto.regular, ofSize: ofSize)
+        return UIFont.systemFont(ofSize: ofSize)
     }
-    
-    private static func black(ofSize: CGFloat) -> UIFont {
-        return customFont(name: Roboto.black, ofSize: ofSize)
-    }
-    
-    private static func medium(ofSize: CGFloat) -> UIFont {
-        return customFont(name: Roboto.medium, ofSize: ofSize)
-    }
-    
+      
     private static func bold(ofSize: CGFloat) -> UIFont {
-        return customFont(name: Roboto.bold, ofSize: ofSize)
-    }
-    
-    private static func light(ofSize: CGFloat) -> UIFont {
-        return customFont(name: Roboto.light, ofSize: ofSize)
-    }
-    
-    private static func customFont(name: String, ofSize: CGFloat) -> UIFont {
-        let font = UIFont(name: name, size: ofSize)
-        assert(font != nil, "Can't load font: \(name)")
-        return font ?? UIFont.systemFont(ofSize: ofSize)
+        return UIFont.boldSystemFont(ofSize: ofSize)
     }
 }

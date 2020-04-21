@@ -12,8 +12,6 @@ import UIKit
 
 /// Handle normal UIViewController as root, with present & dismiss
 public protocol ViewRouterInterface: ViewInterface {
-    /// Determine if router can present a new view
-    func canPresentNewView() -> Bool
     func present(_ view: ViewInterface, animated: Bool, completion: (() -> Void)?)
     func dismissView(animated: Bool, completion: (() -> Void)?)
 
@@ -21,12 +19,8 @@ public protocol ViewRouterInterface: ViewInterface {
 }
 
 extension ViewRouterInterface {
-    func canPresentNewView() -> Bool {
-        return toController().presentedViewController != nil
-    }
 
     func present(_ view: ViewInterface, animated: Bool, completion: (() -> Void)? = nil) {
-        guard toController().validateOnPresent(view.toController()) else { return }
         toController().present(view.toController(), animated: animated, completion: completion)
     }
 
@@ -46,14 +40,6 @@ extension ViewRouterInterface {
         }
         present(alertController, animated: true)
     }
-}
-
-// MARK: - Window Router
-
-/// Handle main UIWindow and its root view controller.
-public protocol WindowRouterInterface: ViewRouterInterface {
-    var window: UIWindow { get }
-    var rootView: ViewInterface { get set }
 }
 
 // MARK: - Navigation Router
