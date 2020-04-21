@@ -86,7 +86,7 @@ extension MobileDataPresenter: MobileDataPresenterInterface {
         
         loaderStack.append(true)
         
-        interactor.fetchListMobileData(isCached: true) { [weak self] (result) in
+        interactor.fetchListMobileData(isCached: false) { [weak self] (result) in
             guard let self = self else { return }
             
             _ = self.loaderStack.popLast()
