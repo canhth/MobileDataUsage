@@ -14,7 +14,13 @@ final class MobileDataInteractor {
     // MARK: - Private Properties
 
     private let networkClient: NetworkRequestable
-
+    private let limit = 20
+    private var offset = 0
+    private var totalResults = 0
+    private let startYear = "2008"
+    private let endYear = "2018"
+    
+    
     // MARK: - LifeCycle
 
     init(networkClient: NetworkRequestable = NetworkClient()) {
@@ -25,4 +31,74 @@ final class MobileDataInteractor {
 // MARK: - MobileDataInteractorInterface
 
 extension MobileDataInteractor: MobileDataInteractorInterface {
+    
+    func reachedLimit() -> Bool {
+        return totalResults != 0 && totalResults <= offset
+    }
+    
+    func cleanUp() {
+        offset = 0
+    }
+    
+    func fetchListMobileData(isCached: Bool, completion: @escaping (Result<[YearRecord], NetworkError>) -> Void) {
+        networkClient.fetch(endPoint: MobileNetworkEndpoint.fetchListMobileData(limit: limit,
+                                                                                offset: offset),
+                            type: MobileDataResponse.self,
+                            loadFromCache: isCached) { (response) in
+            DispatchQueue.main.async {
+                switch response {
+                case .success(let data):
+                    if !data.result.records.isEmpty {
+                        // Filter data in Background
+                        DispatchQueue.global(qos: .userInitiated).async {
+                            let yearRecords = self.filterQuartersToYearlyRecords(quarters: data.result.records)
+
+                            DispatchQueue.main.async {
+                                completion(.success(yearRecords))
+                            }
+                        }
+                        self.totalResults = data.result.total
+                    } else {
+                        completion(.failure(NetworkError.invalidResponse))
+                    }
+                case .failure(let error):
+                    completion(.failure(error))
+                }
+            }
+        }
+        
+        offset += limit
+    }
+    
+    private func filterQuartersToYearlyRecords(quarters: [QuarterRecord]) -> [YearRecord] {
+        var yearRecords = [YearRecord]()
+        
+        for quarter in quarters {
+            // Only input data from 2008 - 2018
+            let year = quarter.year
+            guard year >= startYear && year <= endYear else { continue }
+            
+            // Init first value if list isEmpty
+            if yearRecords.isEmpty {
+                yearRecords.append(YearRecord(quarter: quarter))
+                continue
+            }
+            
+            guard var currentYearRecord = yearRecords.last else { continue }
+            
+            // Init the new YearRecord for the next year
+            guard yearRecords.last?.year ?? "" == year else {
+                currentYearRecord = YearRecord(quarter: quarter)
+                yearRecords.append(currentYearRecord)
+                continue
+            }
+            
+            currentYearRecord.quarterRecords.append(quarter)
+            
+            // ReUpdate the latest value.
+            yearRecords[yearRecords.count - 1] = currentYearRecord
+        }
+        
+        return yearRecords
+    }
 }

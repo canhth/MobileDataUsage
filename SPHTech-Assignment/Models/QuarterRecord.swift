@@ -8,16 +8,16 @@
 
 import Foundation
 
-struct QuaterRecord: Decodable {
-    let id: Int
-    let quater: String
+struct QuarterRecord: Decodable {
+    let _id: Int
+    let quarter: String
     let volumeOfMobileData: String
     
     var year: String {
-        return quater.components(separatedBy: "-").first ?? ""
+        return quarter.components(separatedBy: "-").first ?? ""
     }
     
-    var quaterName: String {
-        return quater.components(separatedBy: "-").last ?? ""
+    var quarterName: String {
+        return quarter.components(separatedBy: "-").last ?? ""
     }
 }

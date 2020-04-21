@@ -44,6 +44,9 @@
 		A6936840244E86A400B51A03 /* MobileDataDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693683A244E86A400B51A03 /* MobileDataDependency.swift */; };
 		A6936841244E86A400B51A03 /* MobileDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693683B244E86A400B51A03 /* MobileDataViewController.swift */; };
 		A6936842244E86A400B51A03 /* MobileDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693683C244E86A400B51A03 /* MobileDataInteractor.swift */; };
+		A6936845244E95B600B51A03 /* MobileDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936844244E95B600B51A03 /* MobileDataCell.swift */; };
+		A6936847244E975100B51A03 /* QuartersStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936846244E975100B51A03 /* QuartersStackView.swift */; };
+		A6936849244EB98E00B51A03 /* MobileDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6936848244EB98E00B51A03 /* MobileDataResponse.swift */; };
 		D6FAC7E3383F0C7E57B14DB9 /* Pods_SPHTech_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF00E871DC54D2633CD2D4E /* Pods_SPHTech_AssignmentTests.framework */; };
 		D98CCC8574D4381A2D0890EB /* Pods_SPHTech_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382C0E6BBF97097E8D4BF3FE /* Pods_SPHTech_Assignment.framework */; };
 		DA9DC2AA971088262012E6E4 /* Pods_SPHTech_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8DD8B8FA6CDE1B94C27E68 /* Pods_SPHTech_AssignmentUITests.framework */; };
@@ -114,6 +117,9 @@
 		A693683A244E86A400B51A03 /* MobileDataDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataDependency.swift; sourceTree = "<group>"; };
 		A693683B244E86A400B51A03 /* MobileDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataViewController.swift; sourceTree = "<group>"; };
 		A693683C244E86A400B51A03 /* MobileDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataInteractor.swift; sourceTree = "<group>"; };
+		A6936844244E95B600B51A03 /* MobileDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataCell.swift; sourceTree = "<group>"; };
+		A6936846244E975100B51A03 /* QuartersStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartersStackView.swift; sourceTree = "<group>"; };
+		A6936848244EB98E00B51A03 /* MobileDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataResponse.swift; sourceTree = "<group>"; };
 		BD485FA05875A965C5834399 /* Pods-SPHTech-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHTech-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-SPHTech-AssignmentUITests/Pods-SPHTech-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D236E0910C3BB8DC62B4E10A /* Pods-SPHTech-AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHTech-AssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-SPHTech-AssignmentUITests/Pods-SPHTech-AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DDF00E871DC54D2633CD2D4E /* Pods_SPHTech_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPHTech_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -327,6 +333,7 @@
 			children = (
 				A6936830244DF01600B51A03 /* QuarterRecord.swift */,
 				A6936832244DF02500B51A03 /* YearRecord.swift */,
+				A6936848244EB98E00B51A03 /* MobileDataResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -334,6 +341,7 @@
 		A6936836244E866A00B51A03 /* MobileData */ = {
 			isa = PBXGroup;
 			children = (
+				A6936843244E959800B51A03 /* Views */,
 				A6936837244E86A400B51A03 /* MobileDataInterfaces.swift */,
 				A6936838244E86A400B51A03 /* MobileDataPresenter.swift */,
 				A6936839244E86A400B51A03 /* MobileDataRouter.swift */,
@@ -342,6 +350,15 @@
 				A693683C244E86A400B51A03 /* MobileDataInteractor.swift */,
 			);
 			path = MobileData;
+			sourceTree = "<group>";
+		};
+		A6936843244E959800B51A03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6936844244E95B600B51A03 /* MobileDataCell.swift */,
+				A6936846244E975100B51A03 /* QuartersStackView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		C3C0CDB30AC0E3B37FC0EF68 /* Pods */ = {
@@ -598,6 +615,7 @@
 				A693682F244DEC7B00B51A03 /* Constraints.swift in Sources */,
 				A6936833244DF02500B51A03 /* YearRecord.swift in Sources */,
 				A693680A244DEA3E00B51A03 /* BaseViewController.swift in Sources */,
+				A6936845244E95B600B51A03 /* MobileDataCell.swift in Sources */,
 				A6936823244DEC2100B51A03 /* UITableView+Ext.swift in Sources */,
 				A6936825244DEC3000B51A03 /* UIView+Ext.swift in Sources */,
 				A693680D244DEA3E00B51A03 /* NavigationRouter.swift in Sources */,
@@ -613,6 +631,7 @@
 				A693683F244E86A400B51A03 /* MobileDataRouter.swift in Sources */,
 				A693682D244DEC6700B51A03 /* Collection+Ext.swift in Sources */,
 				A6936835244DF7C100B51A03 /* MobileNetworkEndpoint.swift in Sources */,
+				A6936847244E975100B51A03 /* QuartersStackView.swift in Sources */,
 				A6936800244DEA3E00B51A03 /* NetworkClient.swift in Sources */,
 				A6936809244DEA3E00B51A03 /* PresenterInterface.swift in Sources */,
 				A6936805244DEA3E00B51A03 /* UIViewController+Ext.swift in Sources */,
@@ -620,6 +639,7 @@
 				A6936811244DEA3E00B51A03 /* NameDescribable.swift in Sources */,
 				A6936829244DEC4E00B51A03 /* UIColor+Ext.swift in Sources */,
 				A6936801244DEA3E00B51A03 /* APIEndpoint.swift in Sources */,
+				A6936849244EB98E00B51A03 /* MobileDataResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,13 +14,18 @@ struct YearRecord {
     var totalVolumeData: Float = 0
     var isDecreasedVolumeData: Bool = false
     
-    var quaterRecords: [QuaterRecord] {
+    var quarterRecords: [QuarterRecord] {
         didSet {
-            let volumeData = quaterRecords.compactMap( { Float($0.volumeOfMobileData) })
+            let volumeData = quarterRecords.compactMap( { Float($0.volumeOfMobileData) })
             totalVolumeData = volumeData.reduce(0, +)
-            isDecreasedVolumeData = volumeData.isAscending()
+            isDecreasedVolumeData = !volumeData.isAscending() && volumeData.count > 1
         }
     }
     
+    init(quarter: QuarterRecord) {
+        year = quarter.year
+        totalVolumeData = Float(quarter.volumeOfMobileData) ?? 0
+        quarterRecords = [quarter]
+    }
     
 }

@@ -47,7 +47,7 @@ public extension NetworkError {
             return NSLocalizedString("Server did not return success status. Code: \(code)",
                 comment: "The status code does not indicate success for the specified response.")
         case .fetchError(let error):
-            return NSLocalizedString("Error occured. No item found in local cache. Error: \(error)",
+            return NSLocalizedString("Error occured. Error: \(error)",
                 comment: "Unable to fetch with the specified underlying error.")
         }
     }

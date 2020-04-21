@@ -8,13 +8,8 @@
 
 import Foundation
 
-enum NestedKey {
-    static let result = "result"
-    static let records = "records"
-}
-
 enum MobileNetworkEndpoint {
-    case fetchListMobileData(resourceId: String, limit: Int, offset: Int)
+    case fetchListMobileData(limit: Int, offset: Int)
 }
 
 // MARK: Confirm protocol Endpoint
@@ -30,8 +25,8 @@ extension MobileNetworkEndpoint: APIEndpoint {
     
     var parameters: Parameters? {
         switch self {
-        case .fetchListMobileData(let id, let limit, let offset):
-            return ["resource_id": id,
+        case .fetchListMobileData(let limit, let offset):
+            return ["resource_id": DefaultNetworkConfiguration.networkConfiguration.resourceId,
                     "limit": limit,
                     "offset": offset]
         }

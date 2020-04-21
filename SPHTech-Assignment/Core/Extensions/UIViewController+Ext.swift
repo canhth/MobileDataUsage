@@ -37,7 +37,7 @@ extension UIViewController {
         navigationController?.navigationItem.largeTitleDisplayMode = displayMode
         navigationController?.navigationBar.largeTitleTextAttributes = [
             .foregroundColor: AppColor.white,
-            .font: MVFont.headLine
+            .font: SPHFont.headLine
         ]
     }
 }

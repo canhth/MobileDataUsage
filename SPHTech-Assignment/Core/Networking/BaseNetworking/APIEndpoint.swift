@@ -46,10 +46,9 @@ public extension APIEndpoint {
     func buildRequest() -> URLRequest? {
         guard let url = urlComponents?.url else { return nil }
 
-        var request = URLRequest(url: url, cachePolicy: URLRequest.CachePolicy.returnCacheDataElseLoad, timeoutInterval: 10)
+        var request = URLRequest(url: url)
         request.httpMethod = method.rawValue
         request.httpBody = parametersToHttpBody()
-        request.cachePolicy = .reloadRevalidatingCacheData
         request.timeoutInterval = 5 * 1000
         headers.forEach { request.addValue($0.value, forHTTPHeaderField: $0.key) }
         return request
@@ -65,14 +64,31 @@ private extension APIEndpoint {
     var urlComponents: URLComponents? {
         guard var url = URL(string: baseURLPath) else { return nil }
         url.appendPathComponent(path)
-        return URLComponents(url: url, resolvingAgainstBaseURL: false)
+        
+        var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false)
+        
+        // Specific support for GET method 
+        if method == .get {
+            urlComponents?.queryItems = parametersAsURLQueryItems()
+        }
+        return urlComponents
     }
 
     /// Converts a JSON object into Data to use as the HTTPBody
     ///
     /// - Returns: The converted data
     func parametersToHttpBody() -> Data? {
-        guard let params = parameters else { return nil }
+        guard let params = parameters, method != .get else { return nil }
         return try? JSONSerialization.data(withJSONObject: params, options: [])
+    }
+    
+    func parametersAsURLQueryItems() -> [URLQueryItem] {
+        var items = [URLQueryItem]()
+        
+        for (key,value) in parameters ?? [:] {
+            items.append(URLQueryItem(name: key, value: "\(value)"))
+        }
+        
+        return items.filter{!$0.name.isEmpty}
     }
 }
