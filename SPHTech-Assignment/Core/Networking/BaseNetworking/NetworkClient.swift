@@ -77,6 +77,7 @@ public final class NetworkClient: NetworkRequestable {
         }
 
         task.resume()
+        print("end")
     }
     
     // MARK: - Private
